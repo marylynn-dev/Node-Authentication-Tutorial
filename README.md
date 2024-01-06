@@ -34,8 +34,25 @@ Node.js Authentication is a secure and scalable authentication system built usin
 npm install
 ```
 
-3. Set up environment variables
-Create a .env file and configure your environment variables.
+ 3. Set up Environment Variables
+
+Create a `.env` file at the root of your project and configure the necessary environment variables. Here's an example of the required variables:
+
+```plaintext
+# .env
+
+# Your MongoDB connection string
+MONGODB_URI=your_mongodb_uri
+
+# Your JWT secret key for token generation and validation
+JWT_SECRET=your_jwt_secret
+
+# Your Redis server connection information (if applicable)
+REDIS_HOST=your_redis_host
+REDIS_PORT=your_redis_port
+
+# Other environment variables...
+```
 
 4. Start the Application
 
@@ -49,13 +66,14 @@ Follow the API documentation to integrate authentication features into your web 
 
 ### Technologies Used
 
--*Node.js: A JavaScript runtime for building scalable server-side applications.*
--Express.js: A fast and minimalist web framework for Node.js.
--MongoDB: A NoSQL database for storing user information in a flexible and scalable manner.
--JWT: A compact, URL-safe means of representing claims to be transferred between two parties.
--Redis: An in-memory data structure store used for caching frequently accessed data.
--bcrypt: A library for hashing and comparing passwords securely.
--Joi: A powerful schema description language and data validator for JavaScript.
+- **Node.js:** A JavaScript runtime for building scalable server-side applications.
+- **Express.js:** A fast and minimalist web framework for Node.js.
+- **MongoDB:** A NoSQL database for storing user information in a flexible and scalable manner.
+- **JWT:** A compact, URL-safe means of representing claims to be transferred between two parties.
+- **Redis:** An in-memory data structure store used for caching frequently accessed data.
+- **bcrypt:** A library for hashing and comparing passwords securely.
+- **Joi:** A powerful schema description language and data validator for JavaScript.
+
 
 ### Contributons
 
