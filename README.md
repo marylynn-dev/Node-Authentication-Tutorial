@@ -35,7 +35,7 @@ npm install
 ```
 
 3. Set up environment variables
-   Create a .env file and configure your environment variables.
+Create a .env file and configure your environment variables.
 
 4. Start the Application
 
