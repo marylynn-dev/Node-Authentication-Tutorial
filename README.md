@@ -35,7 +35,7 @@ npm install
 ```
 
 3. Set up environment variables
--Create a .env file and configure your environment variables.
+Create a .env file and configure your environment variables.
 
 4. Start the Application
 
@@ -49,7 +49,7 @@ Follow the API documentation to integrate authentication features into your web 
 
 ### Technologies Used
 
--Node.js: A JavaScript runtime for building scalable server-side applications.
+-*Node.js: A JavaScript runtime for building scalable server-side applications.*
 -Express.js: A fast and minimalist web framework for Node.js.
 -MongoDB: A NoSQL database for storing user information in a flexible and scalable manner.
 -JWT: A compact, URL-safe means of representing claims to be transferred between two parties.
